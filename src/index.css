@@ -5,9 +5,125 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #12151C;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 200px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  margin: 0px 0 35px 0px;
+}
+
+.TodoWrapper {
+  background: #12151C;
+  position: relative;
+  top: 10rem;
+  padding: 30px;
+  border: 1px solid white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  max-width: 400px;
+  margin-bottom: 100px;
+  z-index: 3;
+}
+
+.TodoForm {
+  margin-bottom: 1rem;
+}
+
+input {
+  height: 2.5rem;
+  background: #1E2128;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  height: 2.5rem;
+  margin-left: 1rem;
+  width: 100px;
+}
+
+.Todo {
+  width: 100%;
+  height: 3rem;
+  background: #1E2128;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 1rem 0;
+  transition: all .5s ease;
+}
+
+.Todo:last-child {
+  margin: 0;
+}
+
+.Todo p {
+  max-width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing:content-box;
+  text-overflow: ellipsis;
+}
+
+.Todo p,
+.box-icons {
+  padding: 0 1rem 0 1rem;
+}
+
+.box-icons {
+  position: relative;
+  z-index: 4;
+}
+
+#editIcon {
+  margin-right: 0.75rem;
+}
+
+.completed {
+  background: green;
+  text-decoration: line-through;
+}
+
+.btn-removeAllTask {
+  position: absolute;
+  top: -25px;
+  background: #1E2128;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all .5s ease;
+  z-index: 1;
+  right: 10px;
+}
+
+.btn-removeAllTask:hover {
+  background: red;
+  transform: translateY(-5px);
+  z-index: 2;
 }
