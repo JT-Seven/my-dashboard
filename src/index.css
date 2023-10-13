@@ -1,3 +1,11 @@
+:root {
+  --step0: #0f0a1e;
+  --step1: #08141c;
+  --step2: #03081c;
+  --step3: #0f1b24;
+  --step4: #141414;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -21,7 +29,7 @@ h1 {
 .TodoWrapper {
   background: #12151C;
   position: relative;
-  top: 10rem;
+  top: 7rem;
   padding: 30px;
   border: 1px solid white;
   border-radius: 8px;

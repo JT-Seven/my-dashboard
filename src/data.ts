@@ -1,0 +1,16 @@
+export default [
+    { css: 'https://cdn.idntimes.com/content-images/duniaku/post/20230622/fireshot-capture-773-netflix-wwwnetflixcom-b5eb607fe60fd6e07afd1c32205b1d0b.png', height: 450 },
+    { css: 'https://prod-printler-front-as.azurewebsites.net/media/photo/150124-2.jpg?mode=crop&width=727&height=1024&rnd=0.0.1', height: 450 },
+    { css: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLEmc-4_235Lwia-vJLUMKYPXN6z7xg7Sq2We2qznIvoDdLDCbfIy8qunF0cV_ETxEkYU&usqp=CAU', height: 450 },
+    { css: 'https://static.wikia.nocookie.net/12e5dfd0-5b54-496a-8ac9-b00f887140d9/scale-to-width/370', height: 450 },
+    { css: 'https://gaak.fr/wp-content/uploads/2021/08/066F938B-46B1-4330-B0FE-15998C5F58E7.jpeg', height: 450 },
+    { css: 'https://boutique-manga.fr/wp-content/uploads/2021/01/les-capacites-au-combat-livai-1.jpg', height: 450 },
+    { css: 'https://www.epicdope.com/wp-content/uploads/2023/05/hinokami-kagura.jpg', height: 600 },
+    { css: 'https://files.axy.news/wp-content/uploads/2021/10/Baki-Hanma-Stagione-2-Data-di-uscita-Rinnovato-o-Cancellato-G3C5Pd-1.jpg', height: 450 },
+    { css: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbhTsGj3mhpFlEPskbrbCwEYOJJwQ6-JxZwd0tPQwcTrLUukU8AGq-8wqwrribuWvfkNs&usqp=CAU', height: 600 },
+    { css: 'https://i.pinimg.com/736x/68/bb/a1/68bba1575eff0ed4bb38dd23c25da958.jpg', height: 300 },
+    { css: 'https://i1.sndcdn.com/artworks-z3MSN68bP4A6gjgG-GRTWsw-t500x500.jpg', height: 600 },
+    { css: 'https://assets-prd.ignimgs.com/2022/06/22/spriggan-blogroll-1655914185822.jpg?width=1280', height: 450 },
+    { css: 'https://sm.ign.com/ign_br/screenshot/default/blob_qb1q.jpg', height: 300 },
+    { css: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsht5c7LrMRBp4Al7ppKgCam6lc2e7mI7WpA&usqp=CAU', height: 600 },
+]
